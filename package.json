@@ -1,0 +1,32 @@
+{
+  "name": "quadro-de-avisos2",
+  "version": "1.0.0",
+  "description": "quadro-de-avisos",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    " start ": " nodemon server.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayC-prog/quadro-de-avisos2.git"
+  },
+  "author": "Rayanne Costa Souza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RayC-prog/quadro-de-avisos2/issues"
+  },
+  "homepage": "https://github.com/RayC-prog/quadro-de-avisos2#readme",
+  " dependências ": {
+    " body-parser ": " ^ 1.19.0 ",
+    " ejs ": " ^ 3.1.5 ",
+    " express ": " ^ 4.17.1 ",
+    "knex": "^0.21.13",
+    "mysql2": "^2.2.5",
+    "pkg": "^4.4.9",
+    "dotenv": "^8.2.0"
+  },
+  " devDependencies ": {
+    " nodemon ": " ^ 2.0.4 "
+  }
+}
